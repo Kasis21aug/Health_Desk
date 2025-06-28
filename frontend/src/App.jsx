@@ -12,6 +12,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { Context } from './main';
 import axios from 'axios'; 
 import Navbar from './components/Navbar';
+import Chatbot from './components/Chatbot';
 
  
 const App = () => {
