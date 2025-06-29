@@ -42,7 +42,8 @@ const Chatbot = () => {
             {messages.map((msg, idx) => (
               <div key={idx} className={`chat-msg ${msg.sender}`}>
                 {msg.sender==="bot" ?(
-                     <ReactMarkdown>{msg.text}</ReactMarkdown>):(
+                      <div className="markdown-text">
+                     <ReactMarkdown>{msg.text}</ReactMarkdown> </div>):(
                          <p>{msg.text}</p>                     
                 )}
               </div>

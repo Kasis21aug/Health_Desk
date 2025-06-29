@@ -85,7 +85,13 @@
   background-color: #d1e7dd;
   align-self: flex-end;
   color: #0f5132;
+  font-size:14px;
 }
+
+.chat-msg.user p{
+   font-size: 14px;
+}
+
 
 /* Bot message */
 .chat-msg.bot {
@@ -97,6 +103,7 @@
 /* Chat input area */
 .chat-input {
   display: flex;
+  flex-shrink:0;
   border-top: 1px solid #ddd;
   padding: 8px;
   background-color: #fff;
@@ -104,6 +111,7 @@
 
 .chat-input input {
   flex: 1;
+  height:30px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 20px;
@@ -125,4 +133,12 @@
 
 .chat-input button:hover {
   background-color: #0b5ed7;
+}
+
+
+
+.markdown-text,
+.markdown-text * {
+  font-size: 14px;
+  line-height: 1.4;
 }
