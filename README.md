@@ -81,7 +81,3 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-```
-
-Let me know if you'd like a version with screenshot placeholders, detailed API documentation, or Docker support!
-```
